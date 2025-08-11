@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: #1f242d;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 25px 9%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    height: 80px;
+    width: 80px;
+    padding-left: 20px;
+}
+.navbar ul {
+    display: flex;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar ul li {
+    margin-left: 35px;
+    list-style: none;
+}
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}   
+.navbar ul li a:hover {
+    color: #51bc17;
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 9% 0;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.home-content h1 {
+    font-size: 55px;
+}
+.home-content h2 {
+    font-size: 32px;
+    margin-top: -10px;
+}
+.home-content p {
+    font-size: 20px;
+    margin: 10px 0 25px;
+}
+.home-content .btn-sci {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 16px;
+    color:#1f242d;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+}
+.home-content .btn-sci .sci {
+    margin-left: 20px;
+}
+.home-content .btn-sci .sci a {
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #7cf03d;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #7cf03d;
+    margin: 0 8px;
+    transition: all 0.3s ease-in-out;
+}
+.home-content .btn-sci .sci a:hover {
+    background: #7cf03d;
+    color: #1f242d;
+    box-shadow: 0 0 10px #7cf03d;
+}
